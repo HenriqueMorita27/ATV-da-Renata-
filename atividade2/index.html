@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<!-- Atividade de HTML e CSS - Tema: BMW -->
+<html lang="pt-BR">
+
+<head>
+    <!-- Codificação de caracteres (para aparecer os acentos corretamente) -->
+    <meta charset="UTF-8">
+
+    <!-- Faz a página se ajustar a diferentes tamanhos de tela -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Página sobre a história, os modelos e as curiosidades da marca BMW.">
+    <meta name="author" content="Estudante de Engenharia de Software">
+
+    <title>BMW - História e Curiosidades</title>
+
+    <!-- Ícone da aba (favicon) -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- Fontes do Google Fonts (Montserrat e Oswald) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Oswald:wght@500&display=swap" rel="stylesheet">
+
+    <!-- Ligação com o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <!-- Cabeçalho da página (usa o id #topo-da-pagina no CSS) -->
+    <header id="topo-da-pagina">
+        <h1 >BMW - Prazer em Dirigir</h1>
+        <p>Uma página para conhecer um pouco mais sobre a marca alemã de carros e motos.</p>
+
+        <!-- Menu com links internos (âncoras) e link para a segunda página -->
+        <nav>
+            <ul>
+                <li><a href="#historia">História</a></li>
+                <li><a href="#modelos">Modelos</a></li>
+                <li><a href="#curiosidades">Curiosidades</a></li>
+                <li><a href="#saiba-mais">Saiba mais</a></li>
+                <li><a href="modelos.html">Página 2: Linhas BMW</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main>
+
+        <figure>
+            <!-- src = caminho da imagem | alt = texto alternativo caso a imagem não carregue -->
+            <img src="BMW.svg"
+                 alt="Logotipo da BMW, um círculo preto com hélice azul e branca"
+                 width="200" height="200">
+            <figcaption>Logotipo da BMW</figcaption>
+        </figure>
+
+        <!-- Seção: História -->
+        <section id="historia" class="secao">
+            <h2>📖 História da marca</h2>
+
+            <article>
+                <p>
+                    A sigla <strong>BMW</strong> vem do alemão <em>Bayerische Motoren Werke</em>,
+                    que em português significa "Fábrica Bávara de Motores".
+                    A empresa foi fundada em 1916, em Munique, na Alemanha.
+                </p>
+
+                <p>
+                    No começo, a BMW fabricava <em>motores de avião</em>, e só depois passou a
+                    produzir motocicletas e automóveis. Por isso, muita gente diz que o logotipo
+                    lembra uma hélice de avião girando, com as cores azul e branca da Baviera.
+                </p>
+
+                <!-- <q> e <cite> são usados para citações de outra fonte -->
+                <p>
+                    O slogan mais famoso da marca em inglês é
+                    <q>Sheer Driving Pleasure</q>, que aqui no Brasil ficou conhecido como
+                    "Prazer em Dirigir" (fonte: <cite>site oficial da BMW</cite>).
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção: Modelos -->
+        <section id="modelos" class="secao">
+            <h2>🏎️ Modelos e linhas</h2>
+
+            <article>
+                <p>
+                    A BMW tem várias linhas de carros. Algumas são mais esportivas,
+                    outras mais confortáveis, e também existem os modelos elétricos.
+                    Abaixo estão algumas das principais linhas, em ordem do menor para o maior porte
+                    (considerando a Série):
+                </p>
+
+                <!-- Lista ordenada (ol) -->
+                <ol>
+                    <li>Série 1 - hatch compacto</li>
+                    <li>Série 3 - sedã esportivo</li>
+                    <li>Série 5 - sedã executivo</li>
+                    <li>Série 7 - sedã de luxo</li>
+                </ol>
+
+                <p>
+                    Além dos sedãs, a marca também produz SUVs (linha <strong>X</strong>),
+                    modelos de alta performance (linha <strong>M</strong>) e
+                    carros elétricos (linha <strong>i</strong>).
+                </p>
+
+                <p>O grupo BMW também é dono de outras marcas famosas:</p>
+
+                <!-- Lista não ordenada (ul) -->
+                <ul>
+                    <li>MINI</li>
+                    <li>Rolls-Royce</li>
+                    <li>BMW Motorrad (motos)</li>
+                </ul>
+            </article>
+        </section>
+
+        <!-- Seção: Curiosidades -->
+        <section id="curiosidades" class="secao">
+            <h2>💡 Curiosidades</h2>
+
+            <article>
+                <p>
+                    A BMW tem uma fábrica no Brasil, na cidade de <strong>Araquari</strong>,
+                    em Santa Catarina. Ela começou a funcionar em 2014 e produz
+                    modelos para o mercado brasileiro.
+                </p>
+
+                <p>
+                    Outra curiosidade é que a BMW é muito conhecida por ter a distribuição de peso
+                    equilibrada entre a frente e a traseira do carro, o que ajuda na
+                    direção e nas curvas. 🛣️
+                </p>
+
+                <p>
+                    No site da BMW você pode personalizar o carro do seu jeito: cor externa,
+                    interior, tipo e cor das rodas. Clientes de longa data também podem
+                    ter acesso a cores mais exclusivas.
+                </p>
+
+                <!-- Link interno: leva para o topo da própria página -->
+                <p><a href="#topo-da-pagina">⬆️ Voltar para o início</a></p>
+            </article>
+        </section>
+
+        <hr>
+
+        <!-- Seção: Saiba mais (usa o id #saiba-mais no CSS) -->
+        <section id="saiba-mais" class="secao">
+            <h2>🌐 Saiba mais</h2>
+
+            <p>
+                Para aprofundar o assunto, você pode acessar o site oficial da marca
+                pelo link abaixo ou conhecer as linhas de modelos na segunda página.
+            </p>
+
+            <!-- Link externo: target="_blank" abre em uma nova aba (estilizado como botão) -->
+            <a class="botao" href="https://www.bmw.com.br/" target="_blank">Visitar o site oficial da BMW Brasil</a>
+
+            <!-- Link para a segunda página do trabalho -->
+            <a class="botao" href="modelos.html">Ver as linhas BMW</a>
+        </section>
+
+    </main>
+
+    <!-- aside: conteúdo relacionado, fora do conteúdo principal -->
+    <aside class="caixa-lateral">
+        <h2>📌 Resumo rápido</h2>
+        <p>
+            <strong>Fundação:</strong> 1916<br>
+            <strong>Sede:</strong> Munique, Alemanha<br>
+            <strong>Nome original:</strong> Bayerische Motoren Werke
+        </p>
+    </aside>
+
+    <hr>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>Página criada para a atividade de HTML e CSS - Feito por Henrique Morita.</p>
+        
+
+</body>
+
+</html>

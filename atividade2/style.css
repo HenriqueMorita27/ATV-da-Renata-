@@ -1,0 +1,195 @@
+/* ==========================================
+   Folha de estilos - Atividade BMW
+   Usada pelas duas páginas (index.html e modelos.html)
+   ========================================== */
+
+/* Estilos gerais da página (seletor de tag) */
+body {
+    background-color: #eaf2fa;
+    color: #222222;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Seletor de id: cabeçalho da página */
+#topo-da-pagina {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 20px;
+    border-bottom: 6px solid #0066b1;
+}
+
+/* Agrupamento de seletores: h1, h2 e h3 usam a mesma fonte */
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    color: #4da3ff;
+    text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px #000000;
+    margin: 0 0 10px 0;
+}
+
+h2 {
+    color: #0066b1;
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+/* Subtítulo h3 com cor diferente de preto */
+h3 {
+    color: #003d6b;
+    font-size: 22px;
+}
+
+/* Menu de navegação (seletor descendente) */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 6px 8px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #0066b1;
+    border-radius: 20px;
+    padding: 8px 16px;
+}
+
+nav a:hover {
+    background-color: #0066b1;
+}
+
+/* Conteúdo principal */
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+/* Seletor de classe: caixas de cada seção */
+.secao {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    margin-bottom: 25px;
+    border: 2px solid #0066b1;
+    border-left: 10px solid #0066b1;
+    border-radius: 12px;
+}
+
+/* Imagem */
+figure {
+    text-align: center;
+}
+
+img {
+    background-color: #ffffff;
+    padding: 10px;
+    border: 3px dashed #0066b1;
+    border-radius: 50%;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555555;
+}
+
+/* Estilos de texto */
+p {
+    text-align: justify;
+}
+
+strong {
+    color: #003d6b;
+}
+
+.destaque {
+    background-color: #ffe98a;
+    padding: 0 6px;
+}
+
+q {
+    color: #0066b1;
+    font-style: italic;
+}
+
+cite {
+    font-weight: bold;
+}
+
+/* Listas */
+ol {
+    list-style-type: upper-roman;
+    list-style-position: inside;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* Links e botões */
+a {
+    color: #0066b1;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #0066b1;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #003d6b;
+    border-radius: 8px;
+}
+
+.botao:hover {
+    background-color: #003d6b;
+}
+
+/* Seção "Saiba mais" centralizada (seletor de id) */
+#saiba-mais {
+    text-align: center;
+}
+
+/* Barra lateral (aside) */
+.caixa-lateral {
+    width: 70%;
+    margin: 0 auto 30px auto;
+    padding: 15px 25px;
+    background-color: #d7e8f8;
+    border: 3px dotted #0066b1;
+    border-radius: 10px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1c1c1c;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    border-top: 6px solid #0066b1;
+}
+
+footer p {
+    text-align: center;
+    margin: 4px 0;
+}
